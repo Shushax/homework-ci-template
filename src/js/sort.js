@@ -3,4 +3,5 @@ export default function newArray(array) {
         return a.health - b.health;
     });
     array.reverse();
+    return array;
 }
